@@ -19,7 +19,7 @@ allprojects {
         google()
         jcenter()
         maven {
-            url "https://gitlab.example.com/api/v4/groups/<group>/-/packages/maven"
+            url "https://gitlab.com/bejancorneliu/"
             name "GitLab"
             credentials(HttpHeaderCredentials) {
                 name = 'huliganul'
